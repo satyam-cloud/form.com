@@ -1,0 +1,65 @@
+*{
+
+    margin: 0;
+    padding: 0%;
+    color: #fff;
+
+}
+
+body{
+    background: url(forest.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+    
+}
+
+div.main{margin: 20vh;
+    display: flex;
+    justify-content: center;
+    align-content: space-around ;
+
+    
+}
+
+h2{
+    padding: 20px;
+    font-family: sans-serif;
+    text-decoration: underline double 1px;
+}
+
+#sub{
+    color: black;
+font-weight: bold;
+border-radius:0px;
+}
+
+div.register{
+    padding:50px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+
+}
+label{
+    font-family: sans-serif;
+    font-size: 1em;
+}
+input{
+    margin:5px;
+    padding:5px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+
+.foot{
+    padding: 10px 0 10px 50px;
+    background-color: rgba(0,0,0,0.5);
+    border-top: 1px solid rgba(255,255,255,0.3);
+    
+}
+
+.para{
+    padding: 20px;
+}
